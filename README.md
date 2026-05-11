@@ -92,48 +92,23 @@ El Visitor implementado permite:
 Estructura del proyecto
 
 ```txt
-.
-├── .antlr/
-├── .vscode/
-├── generated/
-├── node_modules/
-├── Analizador39568_9.g4
-├── CustomVisitor.js
-├── antlr-4.13.2-complete.jar
-├── index.js
-├── input.txt
-├── package-lock.json
-├── package.json
-└── README.md
-```
-
----
-
-Ejecución
-
-1) Generar lexer y parser
-
-```bash
-java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -visitor -listener -o generated Analizador39568_9.g4
-```
-
-2) Ejecutar el analizador
-
-```bash
-node index.js
-```
-
----
-
-Ejemplo de salida
-
-```txt
-=== ANALISIS SINTACTICO ===
-Entrada correcta
-
-=== INTERPRETACION ===
-inicio
-dos
-```
+└── Analizador 39568_19/
+    ├── .antlr/
+    ├── .vscode/
+    ├── generated/
+    ├── node_modules/
+    ├── Analizador39568_9.g4
+    ├── antlr-4.13.2-complete.jar
+    ├── CustomVisitor.js
+    ├── index.js
+    ├── input.txt
+    ├── package.json
+    └── package-lock.json
+├── gramatica_asignada.txt
+├── input_correcto_1.txt
+├── input_correcto_2.txt
+├── input_incorrecto_1.txt
+├── input_incorrecto_2.txt
+├── README.md
 
 ---
