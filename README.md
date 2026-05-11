@@ -169,7 +169,8 @@ Resultado esperado
 
 Captura del árbol sintáctico
 
-![Árbol sintáctico](images/arbol_correcto.png)
+<img width="2380" height="1336" alt="Input Correcto 1" src="https://github.com/user-attachments/assets/2e52d2c7-4d0b-4196-b0ef-475fe3ee2b91" />
+
 
 ---
 
@@ -202,7 +203,8 @@ Resultado esperado
 
 Captura del error detectado
 
-![Error sintáctico](images/error_sintactico.png)
+<img width="2387" height="1364" alt="Input Incorrecto 1" src="https://github.com/user-attachments/assets/cd4e9abd-2226-47e7-b376-85815864e85f" />
+
 
 
 
