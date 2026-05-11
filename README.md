@@ -105,10 +105,10 @@ Estructura del proyecto
     ├── package.json
     └── package-lock.json
 ├── gramatica_asignada.txt
-├── input_correcto_1.txt
-├── input_correcto_2.txt
-├── input_incorrecto_1.txt
-├── input_incorrecto_2.txt
+├── Input Correcto 1.txt
+├── Input Correcto 2.txt
+├── Input Incorrecto 1.txt
+├── Input Incorrecto 2.txt
 ├── README.md
 ```
 
@@ -136,7 +136,7 @@ EJEMPLO DE INPUT CORRECTO 1
 Archivo utilizado:
 
 ```txt
-input_correcto_1.txt
+Input Correcto 1.txt
 ```
 
 Contenido:
@@ -167,33 +167,20 @@ Resultado esperado
 - Se genera el árbol sintáctico concreto
 - La interpretación ejecuta correctamente el programa
 
-Salida esperada
-
-```txt
-inicio
-dos
-```
-
----
-
 Captura del árbol sintáctico
 
 ![Árbol sintáctico](images/arbol_correcto.png)
 
 ---
 
-## Captura de ejecución
 
-![Ejecución correcta](images/ejecucion_correcta.png)
 
----
-
-# EJEMPLO DE INPUT INCORRECTO 1
+EJEMPLO DE INPUT INCORRECTO 1
 
 Archivo utilizado:
 
 ```txt
-input_incorrecto_1.txt
+Input Incorrecto 1.txt
 ```
 
 Contenido:
@@ -204,7 +191,7 @@ x = ;
 output("hola");
 ```
 
-## Resultado esperado
+Resultado esperado
 
 - El lexer reconoce los tokens existentes
 - El parser detecta un error sintáctico
@@ -213,7 +200,7 @@ output("hola");
 
 ---
 
-## Captura del error detectado
+Captura del error detectado
 
 ![Error sintáctico](images/error_sintactico.png)
 
