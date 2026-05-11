@@ -1,0 +1,16 @@
+x = 2;
+
+output("inicio");
+
+switch (x) {
+
+  case 1:
+    output("uno");
+
+  case 2:
+    output("dos");
+
+  default:
+    output("otro");
+
+}
