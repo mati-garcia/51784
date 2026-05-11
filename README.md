@@ -2,6 +2,8 @@ ANALIZADOR 39568_19
 
 Analizador léxico, sintáctico e intérprete básico desarrollado con ANTLR4 y JavaScript.
 
+Para clonar este repositorio, abrir ventana git bash en el directorio donde quieran guardar los archivos y colocar el siguiente comando: git clone https://github.com/mati-garcia/51784
+
 ---
 
 - Descripción:
