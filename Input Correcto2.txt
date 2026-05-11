@@ -1,0 +1,35 @@
+estado = "activo";
+nivel = 3;
+
+output("Verificando usuario");
+
+switch (estado) {
+
+  case "activo":
+    output("Cuenta habilitada");
+
+  case "inactivo":
+    output("Cuenta deshabilitada");
+
+  default:
+    output("Estado desconocido");
+
+}
+
+switch (nivel) {
+
+  case 1:
+    output("Nivel basico");
+
+  case 2:
+    output("Nivel medio");
+
+  case 3:
+    output("Nivel avanzado");
+
+  default:
+    output("Nivel invalido");
+
+}
+
+output("Proceso finalizado");
